@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int h, m1, m2, s, n;
     cin >> n;
-    h = n / 3600;
+    h = n / 3600 % 24;
     m2 = n % 3600 / 60;
     m1 = m2 / 10;
     m2 %= 10;
